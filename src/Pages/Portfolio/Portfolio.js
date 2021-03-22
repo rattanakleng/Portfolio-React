@@ -41,7 +41,8 @@ function Portfolio() {
             description="The application is built with an express backend and save and retrieve note data
           from a JSON file. The app can be used to write, save, and delete notes and keep track of tasks need
           to complete."
-          livePageName="Live Page" repoLinkName="Respository"
+            livePageName="Live Page"
+            repoLinkName="Respository"
             livepageLink="https://notetaker-xpress.herokuapp.com"
             repoLink="https://github.com/rattanakleng/Note-Taker"
           />
@@ -53,7 +54,8 @@ function Portfolio() {
             and retrieve note data from a JSON file. The app can be used
             to write, save, and delete notes and keep track of tasks
             need to complete."
-            livePageName="Live Page" repoLinkName="Respository"
+            livePageName="Live Page"
+            repoLinkName="Respository"
             livepageLink="https://pizza-logger.herokuapp.com/"
             repoLink="https://github.com/rattanakleng/Pizza-Logger"
           />
@@ -66,7 +68,8 @@ function Portfolio() {
             index for cities. This app is develope with Server-Side
             APIs: Weather Dashboard (OpenWeather API,
             https://openweathermap.org/api)."
-            livePageName="Live Page" repoLinkName="Respository"
+            livePageName="Live Page"
+            repoLinkName="Respository"
             livepageLink="https://rattanakleng.github.io/Weather-Dashboard/"
             repoLink="https://github.com/rattanakleng/Weather-Dashboard"
           />
@@ -80,7 +83,7 @@ function Portfolio() {
             livepageLink="http://ratanasuon.website/index.html"
           />
 
-  <PortfolioItem
+          <PortfolioItem
             imgLink="../../img/interior-design/cover.jpg"
             projectName="Interior Design Portfolio"
             description=" Portfolio is a collection of interior design projects. The
@@ -89,7 +92,6 @@ function Portfolio() {
             livePageName="Live Page"
             livepageLink="https://issuu.com/rattanakleng/docs/rattanak_leng_portfolio"
           />
-         
         </div>
       </div>
     </section>
