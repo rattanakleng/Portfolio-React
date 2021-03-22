@@ -1,0 +1,52 @@
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info {
+    width: 100%;
+    background: #fff;
+  }
+  
+  .contact i {
+    font-size: 20px;
+    color: #fc643f;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #eef7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #45505b;
+    margin-bottom: 0;
+  }
+  
+  .contact p {
+    font-size: 14px;
+    color: #728394;
+    margin-bottom: 0;
+  }
+  
+  @-webkit-keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
