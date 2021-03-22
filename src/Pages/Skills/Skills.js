@@ -1,5 +1,7 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import './Skills.css'
+import SkillItem from '../../components/SkillItem/SkillItem'
 
 const Skills = () => {
   return (
@@ -9,142 +11,40 @@ const Skills = () => {
       </div>
 
       <div className="row skills-content px-5">
-        <div className="col-lg-6 col-md">
-          <div className="progress">
-            <span className="skill">
-              HTML <i className="val">100%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                aria-valuenow="100"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
+        <div className="container">
+          <div className="row">
+            <SkillItem src="./img/languageIcon/html.png" title="HTML" />
 
-          <div className="progress">
-            <span className="skill">
-              CSS <i className="val">90%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                aria-valuenow="90"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
+            <SkillItem src="./img/languageIcon/css.png" title="CSS" />
 
-          <div className="progress">
-            <span className="skill">
-              JavaScript <i className="val">75%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
+            <SkillItem src="./img/languageIcon/js.png" title="JavaScript" />
 
-          <div className="progress">
-            <span className="skill">
-              React <i className="val">55%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                aria-valuenow="55"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
+            <SkillItem src="./img/languageIcon/react.png" title="React" />
 
-          <div className="progress">
-            <span className="skill">
-              MySQL <i className="val">80%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                aria-valuenow="80"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-        </div>
+            <SkillItem src="./img/languageIcon/mysql.png" title="MySQL" />
 
-        <div className="col-md-6 col-md">
-          <div className="progress">
-            <span className="skill">
-              MongoDB <i className="val">90%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                aria-valuenow="90"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
+            <SkillItem src="./img/languageIcon/mongodb.png" title="MongoDB" />
 
-          <div className="progress">
-            <span className="skill">
-              Photoshop <i className="val">55%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                aria-valuenow="55"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
+            <SkillItem src="./img/languageIcon/nodejs.png" title="NodeJS" />
 
-          <div className="progress">
-            <span className="skill">
-              Adobe Illstrator <i className="val">55%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                aria-valuenow="55"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
+            <SkillItem src="./img/languageIcon/mongoose.png" title="Mongoose" />
 
-          <div className="progress">
-            <span className="skill">
-              Figma <i className="val">55%</i>
-            </span>
-            <div className="progress-bar-wrap">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                aria-valuenow="55"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
+            <SkillItem
+              src="./img/languageIcon/sequalize.png"
+              title="Sequalize"
+            />
+            <SkillItem src="./img/languageIcon/figma.png" title="Figma" />
+
+            <SkillItem
+              src="./img/languageIcon/photoshop.png"
+              title="Photoshop"
+            />
+            <SkillItem
+              src="./img/languageIcon/illustrator.png"
+              title="Illustrator"
+            />
+
+            <SkillItem src="./img/languageIcon/indesign.png" title="Indesign" />
           </div>
         </div>
       </div>

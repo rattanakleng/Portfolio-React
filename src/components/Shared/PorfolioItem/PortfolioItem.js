@@ -12,7 +12,7 @@ const PortfolioCard = ({
 }) => {
   return (
     <div className="col-lg-4 col-md-6 col-sm-12 p-4">
-      <div className="card  col-sm-12 p-0 m-2">
+      <div className="card  p-0 m-2">
         <img
           src={imgLink}
           className="card-img-top"
