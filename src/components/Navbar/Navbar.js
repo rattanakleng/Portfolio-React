@@ -17,15 +17,15 @@ const Navbar = () => {
           </li>
 
           <li>
-            <Link to="resume"><i class="fas fa-file"></i> <span>Resume</span></Link>
+            <Link to="/resume"><i class="fas fa-file"></i> <span>Resume</span></Link>
           </li>
 
           <li>
-            <Link to="portfolio"><i class="fas fa-book"></i> <span>Portfolio</span></Link>
+            <Link to="/portfolio"><i class="fas fa-book"></i> <span>Portfolio</span></Link>
           </li>
 
           <li>
-            <Link to="contact"><i class="fas fa-envelope"></i> <span>Contact</span></Link>
+            <Link to="/contact"><i class="fas fa-envelope"></i> <span>Contact</span></Link>
           </li>
 
         </ul>

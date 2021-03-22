@@ -22,10 +22,6 @@ function Portfolio() {
               <li data-filter="*" class="filter-active">
                 All Projects
               </li>
-              <li data-filter=".filter-web">Website</li>
-              <li data-filter=".filter-gProject">Group Project</li>
-              <li data-filter=".filter-freelance">Freelance</li>
-              <li data-filter=".filter-graphicDsign">Grapic Design</li>
             </ul>
           </div>
         </div>

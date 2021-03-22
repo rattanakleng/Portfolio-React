@@ -12,7 +12,7 @@
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #fc643f;
+  border-left: 2px solid #0563bb;
   position: relative;
 }
 
@@ -22,7 +22,7 @@
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #fc643f;
+  color: #0563bb;
   margin-bottom: 10px;
 }
 
@@ -56,7 +56,7 @@
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #fc643f;
+  border: 2px solid #0563bb;
 }
 .section-title a:hover {
   color:#45505b

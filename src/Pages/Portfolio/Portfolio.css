@@ -27,7 +27,7 @@
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #fc643f;
+  color: #0563bb;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -180,7 +180,7 @@
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #fc643f !important;
+  background-color: #0563bb !important;
 }
 
 .portfolio-details .portfolio-info {

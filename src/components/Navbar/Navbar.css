@@ -50,7 +50,7 @@
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
-  background: #fc643f;
+  background: #0563bb;
 }
 
 .nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
@@ -95,5 +95,5 @@
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #fc643f;
+  color: #0563bb;
 }

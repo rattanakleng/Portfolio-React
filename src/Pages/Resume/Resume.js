@@ -12,7 +12,7 @@ const Resume = () => {
             <a
               href="./assets/resume/rattanake-leng-resume.pdf"
               download
-              className="text-orange px-3 py-1 rounded-4"
+              className="text-blue px-3 py-1 rounded-4"
             >
               Download PDF File
             </a>

@@ -6,8 +6,8 @@ const Hero = () => {
     <div id="hero" className="d-flex justify-content-center mt-auto">
       <div className="my-auto translate-middle">
         <p>
-          <span className="text-center display-4"> I'm </span>
-          <span className="text-center display-1 text-orange">
+          <span className="text-center text-white display-4"> I'm </span>
+          <span className="text-center display-1 text-white">
             <strong>Rattanak Leng</strong>
           </span>
         </p>

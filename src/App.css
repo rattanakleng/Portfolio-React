@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #fc643f;
+  color: #0563bb;
   text-decoration: none;
 }
 
@@ -31,16 +31,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff !important;  
 }
 
-.text-orange {
-  color: #fc643f;
+.text-blue {
+  color: #0563bb;
 }
 
-.bg-orange {
-  background-color: #fc643f;
+.bg-blue {
+  background-color: #0563bb;
 }
 
-.border-orange {
-  border-color: #fc643f;
+.border-blue {
+  border-color: #0563bb;
 }
 
 .rounded-5 {
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #fc643f;
+  border: 6px solid #0563bb;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -196,7 +196,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #fc643f;
+  background: #0563bb;
   bottom: 0;
   left: calc(50% - 20px);
 }
