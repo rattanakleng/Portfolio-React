@@ -1,4 +1,5 @@
 import React from 'react'
+import { List, ListItem } from '../../components/AboutList/AboutList'
 
 const About = () => {
   return (
@@ -18,43 +19,29 @@ const About = () => {
 
         <div className="row justify-content-center">
           <div className="col-lg-8 pt-4 pt-lg-0 content">
-            <h3 className="text-center">UX Designer &amp; Web Developer.</h3>
+            <h3 className="text-center"> Web Developer &amp; UX Designer</h3>
 
             <div className="row">
               <div className="col-lg-6">
-                <ul className="ps-5">
-                  <li>
-                    <i className="icofont-rounded-right"></i>{' '}
-                    <strong>Website:</strong>
-                    www.rattanakleng.com
-                  </li>
+                <List>
+                  <ListItem text="Website:" children=" www.rattanakleng.com" />
 
-                  <li>
-                    <i className="icofont-rounded-right"></i>{' '}
-                    <strong>Phone:</strong> 206 669 6167
-                  </li>
+                  <ListItem text="Phone:" children=" 206-669-6167" />
 
-                  <li>
-                    <i className="icofont-rounded-right"></i>{' '}
-                    <strong>Email</strong> rleng@live.com
-                  </li>
-                </ul>
+                  <ListItem text="Email:" children=" rleng@live.com" />
+                </List>
               </div>
 
               <div className="col-lg-6">
-                <ul className="ps-5">
-                  <li>
-                    <i className="icofont-rounded-right"></i>{' '}
-                    <strong>City:</strong> Seattle, WA
-                  </li>
+                <List>
+                  <ListItem text="City:" children=" Seattle, WA" />
+
+                  <ListItem text="Freelance:" children=" Available" />
+
+                  <ListItem text="City:" children=" Seattle, WA" />
 
                   <li>
-                    <i className="icofont-rounded-right"></i>{' '}
-                    <strong>Freelance:</strong> Available
-                  </li>
-
-                  <li>
-                    <i className="icofont-rounded-right"></i>{' '}
+                    <i className="icofont-rounded-right"></i>
                     <a
                       href="./assets/resume/rattanake-leng-resume.pdf"
                       download
@@ -62,7 +49,7 @@ const About = () => {
                       <strong>Resume</strong>
                     </a>
                   </li>
-                </ul>
+                </List>
               </div>
             </div>
           </div>
