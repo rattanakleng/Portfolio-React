@@ -23,7 +23,6 @@
 Deverloper portfolio.
 
 ## Web Page
-Indext page: </br>
 
 ![Screenshot 2021-03-29 130822](https://user-images.githubusercontent.com/29310963/112894671-fed51580-9090-11eb-8ace-c77154876f29.jpg)
 
