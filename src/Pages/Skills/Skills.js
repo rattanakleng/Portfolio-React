@@ -41,11 +41,11 @@ const Skills = () => {
             <SkillItem src="./img/languageIcon/figma.png" title="Figma" />
 
             <SkillItem
-              src="./img/languageIcon/photoshop.png"
+              src="../../../assets/img/languageIcon/photoshop.png"
               title="Photoshop"
             />
             <SkillItem
-              src="./img/languageIcon/illustrator.png"
+              src="../../..assets/img/languageIcon/illustrator.png"
               title="Illustrator"
             />
 

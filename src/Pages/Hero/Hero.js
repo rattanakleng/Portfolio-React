@@ -12,7 +12,7 @@ const Hero = () => {
           </span>
         </p>
 
-        <p className=" text-center px-3 fs-4">Developer - Designer - Freelancer</p>
+        <h3 className=" text-center px-3 fs-4">Developer - Designer - Freelancer</h3>
 
         <div className="social-links text-center">
           <a href="https://github.com/rattanakleng" className="github info">

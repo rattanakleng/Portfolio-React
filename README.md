@@ -30,7 +30,7 @@ Indext page: </br>
 ## Repository and Live Site
 Repository: https://github.com/rattanakleng/portfolio-react </br>
 
-Live site: https://rattanakleng.github.io/Portfolio/
+Live site: https://rattanakleng.github.io/portfolio-react/
 
 ## Contributing
 Rattanak Leng </br>
