@@ -27,6 +27,11 @@ const Skills = () => {
 
             <SkillItem src="./img/languageIcon/nodejs.png" title="NodeJS" />
 
+            <SkillItem
+              src="./img/languageIcon/nodejsexpress.png"
+              title="Express"
+            />
+
             <SkillItem src="./img/languageIcon/mongoose.png" title="Mongoose" />
 
             <SkillItem

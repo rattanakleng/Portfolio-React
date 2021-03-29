@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import './Portfolio.css'
-import PortfolioItem from '../../components/Shared/PorfolioItem/PortfolioItem'
+import PortfolioItem from '../../components/PorfolioItem/PortfolioItem'
 
 function Portfolio() {
   return (
@@ -18,11 +18,7 @@ function Portfolio() {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">
-                All Projects
-              </li>
-            </ul>
+            <h4 className="text-blue">Peronal-Freelance-Graphic Design</h4>
           </div>
         </div>
 
@@ -31,6 +27,16 @@ function Portfolio() {
           data-aos="fade-up"
           data-aos-delay="200"
         >
+          <PortfolioItem
+            imgLink="../../img/portfolio/group-project-2.jpg"
+            projectName="Student Management System"
+            description=" This project incorporates handlebars to serve a front end application with MySQL serving as the databse to store the backend date. The application is reliant on handlebars for rendering HTML and JS to the front end."
+            livePageName="Live Page"
+            livepageLink="https://rocky-everglades-87417.herokuapp.com/"
+            repoLinkName="Respository"
+            repoLink="https://github.com/rattanakleng/Student-Management-System"
+          />
+
           <PortfolioItem
             imgLink="../../img/portfolio/note-taker.jpg"
             projectName="Note Taker"

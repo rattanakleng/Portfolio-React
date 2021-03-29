@@ -12,7 +12,7 @@ const PortfolioCard = ({
 }) => {
   return (
     <div className="col-lg-4 col-md-6 col-sm-12 p-4">
-      <div className="card  p-0 m-2">
+      <div className="card  p-0 m-2 rounded-lg">
         <img
           src={imgLink}
           className="card-img-top"
@@ -20,7 +20,7 @@ const PortfolioCard = ({
         />
 
         <div class="card-body p-0 bg-light">
-          <h4 className="card-title text-center bg-orange text-white p-2">
+          <h4 className="card-title text-center bg-blue text-light p-2">
             {projectName}
           </h4>
           <p className="card-text px-4">{description}</p>
