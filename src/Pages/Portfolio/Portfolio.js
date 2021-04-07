@@ -30,7 +30,7 @@ function Portfolio() {
           <PortfolioItem
             imgLink="../../img/portfolio/group-project-2.jpg"
             projectName="Student Management System"
-            description=" This project incorporates handlebars to serve a front end application with MySQL serving as the databse to store the backend date. The application is reliant on handlebars for rendering HTML and JS to the front end."
+            description=" This project incorporates handlebars to serve a front-end application with MySQL serving as the database to store the backend date. The application is reliant on handlebars for rendering HTML and JS to the front end."
             livePageName="Live Page"
             livepageLink="https://rocky-everglades-87417.herokuapp.com/"
             repoLinkName="Respository"
@@ -40,9 +40,7 @@ function Portfolio() {
           <PortfolioItem
             imgLink="../../img/portfolio/note-taker.jpg"
             projectName="Note Taker"
-            description="The application is built with an express backend and save and retrieve note data
-          from a JSON file. The app can be used to write, save, and delete notes and keep track of tasks need
-          to complete."
+            description="The app can be used to write, save, and delete notes and keep track of tasks need to complete. It builds with NodeJS Express. The note data save a JSON file."
             livePageName="Live Page"
             repoLinkName="Respository"
             livepageLink="https://notetaker-xpress.herokuapp.com"
@@ -52,10 +50,7 @@ function Portfolio() {
           <PortfolioItem
             imgLink="../../img/portfolio/pizza-logger.jpg"
             projectName="Pizza Logger"
-            description="The application is built with an express backend and save
-            and retrieve note data from a JSON file. The app can be used
-            to write, save, and delete notes and keep track of tasks
-            need to complete."
+            description="The application was created with MySQL, Node, Express, Handlebars, and a custom ORM."
             livePageName="Live Page"
             repoLinkName="Respository"
             livepageLink="https://pizza-logger.herokuapp.com/"
@@ -65,11 +60,8 @@ function Portfolio() {
           <PortfolioItem
             imgLink="../../img/portfolio/weather-dashboard.jpg"
             projectName="Weather Dashboard"
-            description="The app allows users to check current and future weather
-            conditions, temperature, humidity, wind speed, and the UV
-            index for cities. This app is develope with Server-Side
-            APIs: Weather Dashboard (OpenWeather API,
-            https://openweathermap.org/api)."
+            description="The app allows users to check current and future weather conditions, temperature, humidity, wind speed, and the UV index for cities. This app developed with Server-Side OpenWeather API,
+            https://openweathermap.org/api."
             livePageName="Live Page"
             repoLinkName="Respository"
             livepageLink="https://rattanakleng.github.io/Weather-Dashboard/"
@@ -79,8 +71,7 @@ function Portfolio() {
           <PortfolioItem
             imgLink="../../img/freelance/ratana-website.jpg"
             projectName="Architectural Portfolio"
-            description="A freelance project built for an Architect. This webiste was built for an architect using Bootrap and
-            JavaScript."
+            description="This website was built for an architect using Bootstrap and JavaScript."
             livePageName="Live Page"
             livepageLink="http://ratanasuon.website/index.html"
           />
@@ -88,9 +79,7 @@ function Portfolio() {
           <PortfolioItem
             imgLink="../../img/interior-design/cover.jpg"
             projectName="Interior Design Portfolio"
-            description=" Portfolio is a collection of interior design projects. The
-            portfolio was designed with Adobe Indesign, Photoshop, and
-            Illustrator."
+            description=" The portfolio is a collection of interior design projects. The portfolio was designed with Adobe Indesign, Photoshop, and Illustrator."
             livePageName="Live Page"
             livepageLink="https://issuu.com/rattanakleng/docs/rattanak_leng_portfolio"
           />
